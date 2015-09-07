@@ -9,7 +9,7 @@
   <property name="general-lib" value="${company-name}-${project-name}.jar" />
   <property name="general-src" value="${company-name}-${project-name}-src.zip" />
   <property name="build-Path" location="." />
-  <property name="src.dir.src" location="${build-Path}/src" />
+  <property name="src.dir.src" location="${build-Path}/src/main/java" />
   <property name="src.dir.bin" location="${build-Path}/bin" />
   <property name="src.dir.build" location="${build-Path}/build" />
   <target name="build" depends="build-lib, build-src" />
